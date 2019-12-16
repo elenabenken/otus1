@@ -45,7 +45,7 @@
     <th>HTTP-метод</th> <th>Endpoint</th> <th>Входные параметры</th> <th>Функционал</th> <th>Возвращаемое значение</th> 
   </tr>
   <tr> 
-    <td>POST</td>  <td>/users/register</td> <td>name, password</td> <td>Зарегистрироваться в системе</td> <td>Сообщение об успехе или ошибке</td>
+    <td>POST</td>  <td>/users/register</td> <td>name, password, email</td> <td>Зарегистрироваться в системе</td> <td>Сообщение об успехе или ошибке</td>
   </tr>
   <tr> 
     <td>POST</td>  <td>/users/login</td> <td>name, password</td> <td>Войти в систему</td><td>Сообщение об успехе или ошибке</td>
