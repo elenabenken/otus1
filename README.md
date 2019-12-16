@@ -34,6 +34,45 @@
 
 ![Image alt](https://github.com/elenabenken/otus1/raw/master/Database.png)
   <div>Рис. 2. Модель данных Системы.</div>
+  
+  <h3>API</h3>
+  В этой версии реализованы следующие методы:
+  <table>
+  <tr>
+    <th colspan="5">Регистрация в системе и аутентификация пользователя</th>
+  </tr>
+  <tr> 
+    <th>HTTP-метод</th> <th>Endpoint</th> <th>Входные параметры</th> <th>Функционал</th> <th>Возвращаемое значение</th> 
+  </tr>
+  <tr> 
+    <td>POST</td>  <td>/users/register</td> <td>name, password</td> <td>Зарегистрироваться в системе</td> <td>Сообщение об успехе или ошибке</td>
+  </tr>
+  <tr> 
+    <td>POST</td>  <td>/users/login</td> <td>name, password</td> <td>Войти в систему</td><td>Сообщение об успехе или ошибке</td>
+  </tr>
+  <tr> 
+    <td>POST</td>  <td>/users/logout</td> <td>name</td> <td>Выйти из системы</td><td>Сообщение об успехе или ошибке</td>
+  </tr>
+  <tr>
+    <th colspan="5">Операции CRUD с товарами в магазине</th>
+  </tr>
+    <tr> 
+      <th>HTTP-метод</th> <th>Endpoint</th> <th>Входные параметры</th> <th>Функционал</th> <th>Возвращаемое значение</th>
+  </tr>
+  <tr> 
+    <td>POST</td>  <td>/goods/list</td> <td> - </td> <td>Просмотреть список товаров</td> <td>Список товаров и всех их атрибутов в json-формате</td></tr>
+  <tr> 
+    <td>POST</td>  <td>/goods/insert</td> <td>name,price, category</td> <td>Добавить товар в магазин</td> <td>Сообщение об успехе или ошибке</td>
+  </tr>
+  <tr> 
+    <td>POST</td>  <td>/goods/delete</td> <td>name</td> <td>Удалить товар из магазина</td> <td>Сообщение об успехе или ошибке</td> 
+  </tr>
+  <tr> 
+    <td>POST</td>  <td>/goods/update</td> <td>id,name,price, category</td> <td>Изменить данные товара</td> <td>Сообщение об успехе или ошибке</td> 
+  </tr>
+  </table>
+  Коолекция запросов для тестирования API-методов находится в файле <a href="https://github.com/elenabenken/otus_1/blob/master/test_collection.postman_collection.json">test_collection.postman_collection.json </a>.
+  
 
 
 
