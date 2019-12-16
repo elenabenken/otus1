@@ -64,18 +64,20 @@
   </tr>
   </table>
    <div>
-  Коолекция запросов для тестирования API-методов находится в файле <a href="https://github.com/elenabenken/otus1/blob/master/otus_1.postman_collection.json">otus_1.postman_collection.json </a>.
+  Коллекция запросов для тестирования API-методов находится в файле <a href="https://github.com/elenabenken/otus1/blob/master/otus_1.postman_collection.json">otus_1.postman_collection.json </a>.
     </div>
   <h3>Сценарии использования системы</h3>
+  <p>
   
   ![Image alt](https://github.com/elenabenken/otus1/raw/master/pictures/Client_Use_cases.png)
   
    <div>Рис. 2. Сценарии использования для Клиента.</div>
-   
+    </p> <p>
  ![Image alt](https://github.com/elenabenken/otus1/raw/master/pictures/Admin_Use_cases.png)
   
    <div>Рис. 3. Сценарии использования для Администратора.</div>
-   
+    </p> <p>
   ![Image alt](https://github.com/elenabenken/otus1/raw/master/pictures/Manager_Use_cases.png)
   
    <div>Рис. 4. Сценарии использования для Менеджера.</div>
+    </p>
