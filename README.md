@@ -72,7 +72,7 @@
   
    <div>Рис. 2. Сценарии использования для Клиента.</div>
    
-  ![Image alt](https://github.com/elenabenken/otus1/raw/master/pictures/Admin_Use_cases.png)
+ ![Image alt](https://github.com/elenabenken/otus1/raw/master/pictures/Admin_Use_cases.png)
   
    <div>Рис. 3. Сценарии использования для Администратора.</div>
    
