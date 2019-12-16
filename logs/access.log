@@ -1,0 +1,8 @@
+172.19.0.1 - - [16/Dec/2019:07:04:40 +0000] "POST /users/login HTTP/1.1" 200 54 "-" "PostmanRuntime/7.20.1"
+172.19.0.1 - - [16/Dec/2019:07:04:47 +0000] "POST /users/logout HTTP/1.1" 200 58 "-" "PostmanRuntime/7.20.1"
+172.19.0.1 - - [16/Dec/2019:07:05:03 +0000] "POST /users/register HTTP/1.1" 200 66 "-" "PostmanRuntime/7.20.1"
+172.19.0.1 - - [16/Dec/2019:07:05:15 +0000] "POST /users/login HTTP/1.1" 200 71 "-" "PostmanRuntime/7.20.1"
+172.19.0.1 - - [16/Dec/2019:07:05:22 +0000] "POST /goods/list HTTP/1.1" 200 257 "-" "PostmanRuntime/7.20.1"
+172.19.0.1 - - [16/Dec/2019:07:19:58 +0000] "POST /goods/list HTTP/1.1" 200 257 "-" "PostmanRuntime/7.20.1"
+172.19.0.1 - - [16/Dec/2019:07:30:19 +0000] "POST /users/login HTTP/1.1" 200 71 "-" "PostmanRuntime/7.20.1"
+172.19.0.1 - - [16/Dec/2019:07:30:45 +0000] "POST /users/register HTTP/1.1" 200 66 "-" "PostmanRuntime/7.20.1"

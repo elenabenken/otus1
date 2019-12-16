@@ -1,0 +1,60 @@
+version: '3'
+services:
+    nginx_shop:
+        image: nginx:latest
+        restart: unless-stopped
+        container_name: shop
+        ports:
+            - "172.17.0.1:80:80"
+            - "443:443"
+        volumes:
+            - ./hosts:/etc/nginx/conf.d
+            - ./www:/var/www
+            - ./logs:/var/log/nginx
+            - ./certs:/etc/nginx/certs
+        links:
+            - php
+ #       networks:
+  #        - db-net
+    nginx_migration:
+        image: nginx:alpine
+        restart: unless-stopped
+        container_name: migration
+        ports:
+            - "172.17.0.1:8080:80"
+        volumes:
+            - ./hosts:/etc/nginx/conf.d
+            - ./www:/var/www
+            - ./logs:/var/log/nginx
+        links:
+            - php
+ #       networks:
+  #        - db-net
+    php:
+        build: ./images/php
+        container_name: shop_php
+        links:
+            - mysql
+        volumes:
+            - ./www:/var/www 
+    mysql:
+        image: mysql:8
+        command: --default-authentication-plugin=mysql_native_password
+        container_name: shop_mysql
+        restart: unless-stopped
+        ports:
+            - "3306:3306"
+        volumes:
+            - ./mysql:/var/lib/mysql
+ #       networks:
+#          - db-net
+        environment:
+            MYSQL_ROOT_PASSWORD: secret
+            MYSQL_USER: me
+            MYSQL_PASSWORD: secret
+            MYSQL_DATABASE: shop
+            MYSQL_PORT_3306_TCP_PORT: 3306
+ #   networks:
+ #       db-net:
+  #        config:
+ #           - subnet: 172.17.0.0/24

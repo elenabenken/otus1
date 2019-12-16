@@ -1,0 +1,286 @@
+{
+	"info": {
+		"_postman_id": "7ff4c2e8-b0bd-4b3a-aeaf-3972ade3068a",
+		"name": "otus_1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "shop/goods/insert",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "plate",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "15",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "tableware",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "shop/goods/insert",
+					"host": [
+						"shop"
+					],
+					"path": [
+						"goods",
+						"insert"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "shop/goods/list",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "shop/goods/list",
+					"host": [
+						"shop"
+					],
+					"path": [
+						"goods",
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "shop/goods/update",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "4",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "curr",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "33",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "tableware",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "shop/goods/update",
+					"host": [
+						"shop"
+					],
+					"path": [
+						"goods",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "shop/goods/delete",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "gtyuk",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "shop/goods/delete",
+					"host": [
+						"shop"
+					],
+					"path": [
+						"goods",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "shop/users/register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Mike",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "secret",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "Mike@mail.ru",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "shop/users/register",
+					"host": [
+						"shop"
+					],
+					"path": [
+						"users",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "shop/users/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Mike",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "shop/users/login",
+					"host": [
+						"shop"
+					],
+					"path": [
+						"users",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "shop/users/logout",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Mike",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "shop/users/logout?",
+					"host": [
+						"shop"
+					],
+					"path": [
+						"users",
+						"logout"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Mike",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
