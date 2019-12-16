@@ -70,12 +70,12 @@
   
   ![Image alt](https://github.com/elenabenken/otus1/raw/master/pictures/Client_Use_cases.png)
   
-   <div>Рис. 2. Сценарии использования Системы.</div>
+   <div>Рис. 2. Сценарии использования для Клиента.</div>
    
-   ![Image alt](https://github.com/elenabenken/otus1/raw/master/pictures/Admin_Use_cases.png)
+  ![Image alt](https://github.com/elenabenken/otus1/raw/master/pictures/Admin_Use_cases.png)
   
-   <div>Рис. 3. Сценарии использования Системы.</div>
+   <div>Рис. 3. Сценарии использования для Администратора.</div>
    
   ![Image alt](https://github.com/elenabenken/otus1/raw/master/pictures/Manager_Use_cases.png)
   
-   <div>Рис. 4. Сценарии использования Системы.</div>
+   <div>Рис. 4. Сценарии использования для Менеджера.</div>
