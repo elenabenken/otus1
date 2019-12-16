@@ -68,8 +68,11 @@
     </div>
   <h3>Сценарии использования системы</h3>
   ![Image alt](https://github.com/elenabenken/otus1/raw/master/pictures/Client_Use_cases.png)
+  
    <div>Рис. 2. Сценарии использования Системы.</div>
   ![Image alt](https://github.com/elenabenken/otus1/raw/master/pictures/Admin_Use_cases.png)
+  
    <div>Рис. 3. Сценарии использования Системы.</div>
   ![Image alt](https://github.com/elenabenken/otus1/raw/master/pictures/Manager_Use_cases.png)
+  
    <div>Рис. 4. Сценарии использования Системы.</div>
