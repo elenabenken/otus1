@@ -21,9 +21,6 @@
    </p>
 <h3>Операционная среда</h3>
    <p>Компоненты приложения развернуты в контейнерах docker на базе ОС Ubuntu 18.04.</p>
-
-  <div>
- 
   <h3>Модель данных</h3>
   <p>В настоящей версии база данных состоит из двух таблиц, представленных на рис. 1.</p>
 
@@ -66,12 +63,13 @@
     <td>POST</td>  <td>/goods/update</td> <td>id,name,price, category</td> <td>Изменить данные товара</td> <td>Сообщение об успехе или ошибке</td> 
   </tr>
   </table>
+   <div>
   Коолекция запросов для тестирования API-методов находится в файле <a href="https://github.com/elenabenken/otus1/blob/master/otus_1.postman_collection.json">otus_1.postman_collection.json </a>.
+    </div>
   <h3>Сценарии использования системы</h3>
-   <p>В данной версии Системы реализованы сценарии использования, представленные на рис. 1.</p>
-
-![Image alt](https://github.com/elenabenken/otus1/raw/master/useCases.png)
-    <div>Рис. 1. Сценарии использования Системы.</div>
-  </div>
-
-
+  ![Image alt](https://github.com/elenabenken/otus1/raw/master/pictures/Client_Use_cases.png)
+   <div>Рис. 2. Сценарии использования Системы.</div>
+  ![Image alt](https://github.com/elenabenken/otus1/raw/master/pictures/Admin_Use_cases.png)
+   <div>Рис. 3. Сценарии использования Системы.</div>
+  ![Image alt](https://github.com/elenabenken/otus1/raw/master/pictures/Manager_Use_cases.png)
+   <div>Рис. 4. Сценарии использования Системы.</div>
