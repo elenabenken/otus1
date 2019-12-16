@@ -26,13 +26,13 @@
   <div>
  
 
-![Image alt](https://github.com/elenabenken/otus_1/raw/master/useCases.png)
+![Image alt](https://github.com/elenabenken/otus1/raw/master/useCases.png)
     <div>Рис. 1. Сценарии использования Системы.</div>
   </div>
   <h3>Модель данных</h3>
   <p>В настоящей версии база данных состоит из двух таблиц, представленных на рис. 2.</p>
 
-![Image alt](https://github.com/elenabenken/otus_1/raw/master/Database.png)
+![Image alt](https://github.com/elenabenken/otus1/raw/master/Database.png)
   <div>Рис. 2. Модель данных Системы.</div>
 
 
