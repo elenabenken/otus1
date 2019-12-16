@@ -71,7 +71,7 @@
     <td>POST</td>  <td>/goods/update</td> <td>id,name,price, category</td> <td>Изменить данные товара</td> <td>Сообщение об успехе или ошибке</td> 
   </tr>
   </table>
-  Коолекция запросов для тестирования API-методов находится в файле <a href="https://github.com/elenabenken/otus_1/blob/master/test_collection.postman_collection.json">test_collection.postman_collection.json </a>.
+  Коолекция запросов для тестирования API-методов находится в файле <a href="https://github.com/elenabenken/otus1/blob/master/otus_1.postman_collection.json">otus_1.postman_collection.json </a>.
   
 
 
